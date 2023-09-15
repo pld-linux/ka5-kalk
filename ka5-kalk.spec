@@ -1,18 +1,18 @@
 #
 # Conditional build:
 %bcond_with	tests		# build with tests
-%define		kdeappsver	23.08.0
+%define		kdeappsver	23.08.1
 %define		kframever	5.94.0
 %define		qtver		5.15.2
 %define		kaname		kalk
 Summary:	kalk
 Name:		ka5-%{kaname}
-Version:	23.08.0
+Version:	23.08.1
 Release:	1
 License:	BSD 2 Clause/BSD 3 Clause/GPL v2+/GPL v3+
 Group:		X11/Applications
 Source0:	https://download.kde.org/stable/release-service/%{kdeappsver}/src/%{kaname}-%{version}.tar.xz
-# Source0-md5:	3f187134dec61dc779641eb00eacdf1e
+# Source0-md5:	41089d2e71d534c0ca7556bbb902fde1
 URL:		http://www.kde.org/
 BuildRequires:	Qt5Core-devel
 BuildRequires:	Qt5Gui-devel
